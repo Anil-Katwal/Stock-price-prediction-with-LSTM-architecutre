@@ -1,7 +1,5 @@
 # Stock-price-prediction-with-LSTM-architecutre
--LSTM stands for the Long Short Term Memory Networks.
--LSTM is a type of recurrent neural network that is commpnly used for regression and time series
-forecasting in machine Learning.
+LSTM stands for the Long Short Term Memory Networks. LSTM is a type of recurrent neural network that is commpnly used for regression and time series forecasting in machine Learning.
 # LSTM Network Architecture
 Long Short-Term Memory (LSTM) networks are a type of recurrent neural network designed for sequential data processing. The basic architecture of an LSTM unit involves the following components:
 
