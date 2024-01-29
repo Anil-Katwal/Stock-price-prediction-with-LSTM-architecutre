@@ -4,6 +4,8 @@
 forecasting in machine Learning.
 # LSTM Network Architecture
 Long Short-Term Memory (LSTM) networks are a type of recurrent neural network designed for sequential data processing. The basic architecture of an LSTM unit involves the following components:
+
+![LSTM Architecture](https://i.stack.imgur.com/RHNrZ.jpg)
 ## 1. Cell State (ct):
 The cell state is responsible for storing long-term information. It is updated through a combination of the forget gate, input gate, and output gate. The cell state at time step \(t\) is denoted as \(c_t\).
 ## 2. Input Gate (i_t):
@@ -90,5 +92,4 @@ Training LSTMs can be time-consuming, especially for large models and datasets. 
 For tasks involving short sequences where long-term dependencies are less critical, the complexity of an LSTM may not be justified. Simpler architectures like feedforward neural networks or simpler recurrent networks might perform equally well or better in such cases.
 
 It's important to note that the effectiveness of LSTMs depends on the specific task, dataset, and hyperparameter tuning. In some scenarios, alternative architectures or attention mechanisms may provide better performance.
-![LSTM Architecture](https://github.com/username/repo/raw/main/path/to/your/image.png)
 
